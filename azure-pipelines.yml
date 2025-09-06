@@ -21,7 +21,7 @@ steps:
 - script: npx install playwright --with-deps
   displayName: "Install Playwright Browsers"
 
-- script:  $env:SECRET_KEY='abhi123'; npm run test_demo
+- script: $env:SECRET_KEY='abhi123'; npm run test_demo
   displayName: "Run Tests"
 
 
